@@ -1,0 +1,148 @@
+*{
+  
+    margin:0;
+    padding: 0;
+    
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+header {
+    background: #ffffff;
+    width: 100%;
+    top:0;
+    right:0;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 4%;
+    
+}
+:root{
+    background-color: rgb(202, 190, 190);
+}
+.logo{
+    
+    line-height: 0.8;
+    color:var(--text-color);
+    font-size: var(--main-font);
+    font-family: "Praise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+  
+       
+      
+}
+header a{
+    text-decoration: none;
+    list-style-type: none;
+ 
+}
+.navbar {
+   
+    list-style-type: none;
+    display: flex;
+    
+    
+  
+  
+ 
+}
+.navbar a{
+    color:rgb(0, 0, 0);
+    padding: 0 15px;
+}
+.navbar a:hover{
+   
+    color: rgba(0, 0, 0, 0.363);
+}
+.sidebar{
+    display:none;
+    list-style-type: none;
+    top:0;
+    right:0;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+    background-color:rgba(101, 88, 88, 0.443);;
+    flex-direction: column;
+    text-decoration: none;
+     
+
+}
+.sidebar li{
+    margin-bottom: 1px;
+    padding-top: 15px;
+   
+    
+   
+}
+.sidebar a{
+   
+    color:rgb(0, 0, 0);
+    padding: 10px 15px;
+   
+    
+    
+
+
+}
+.sidebar a:hover{
+    
+    
+    color: rgba(255, 251, 251, 0.84);
+
+}
+section{
+    padding:10px 4%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,auto));
+    align-items:center;
+    gap: 2rem;
+    text-align: center;
+
+}
+.box{
+    padding: 0px 20px 10px 20px;
+    background: transparent;
+    box-shadow:rgb(122, 107, 107);
+    background-color: #fffdfd;
+    border-radius: 10px;
+   
+    
+}
+
+.box h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.box h5{
+    font-size: 19px;
+}
+.box .svg {
+    position: absolute;
+    
+    width:35px;
+    height: 35px;
+
+ 
+}
+.box :hover{
+    color: black;
+}
+.sbout{
+    background:#fffdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+@media(max-width:800px){
+    .hideonmobile{
+        display: none;
+    }
+}
