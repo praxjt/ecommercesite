@@ -7,9 +7,9 @@
     box-sizing: border-box;
 }
 
-heade {
-    backgroun: #ffffff
-    width: 100%
+header {
+    backgroun: #ffffff;
+    width: 100%;
     top:0;
     right:0;
     justify-content: space-between;
