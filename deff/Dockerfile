@@ -1,6 +1,6 @@
 # Use the official Nginx image as a base
 FROM nginx:alpine
-WORKDIR /sigma
+WORKDIR /usr/share/nginx/html
 # Copy the HTML and CSS files to the appropriate directory in the container
 COPY . .
 
